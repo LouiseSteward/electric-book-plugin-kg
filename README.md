@@ -50,7 +50,7 @@ Then, to include a graph in your web and app outputs:
        link-suffix: "."
    ~~~
 
-5. To change the appearance of this box in non-interactice formats, edit the styles in `kg-non-interactive-styles` in the `kg` include file.
+5. To change the appearance of this box in non-interactive formats, edit the styles in `kg-non-interactive-styles` in the `kg` include file.
 
 [^1]: You could make these graphs work in EPUB by heavily modifying the way you load the KG script. Contact [Electric Book Works](https://electricbookworks.com) if you need help doing this. Since many ereaders don't support Javascript well, we assume this is usually not feasible anyway.
 
