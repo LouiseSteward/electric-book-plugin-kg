@@ -1,6 +1,6 @@
 # Electric Book KG plugin
 
-This plugin adds support for KG interactive graphs to an Electric Book project.
+This plugin adds support for [KG interactive graphs](https://github.com/cmakler/kgjs/) to an Electric Book project.
 
 
 ## Installation
