@@ -5,7 +5,7 @@ This plugin adds support for [KG interactive graphs](https://github.com/cmakler/
 
 ## Installation
 
-1. Add this folder (called `_kg`) to the root directory of your Electric Book project.
+1. Copy the contents of this folder to one called `_kg` in the root directory of your Electric Book project.
 2. The folder is a Jekyll collection. Register it with Jekyll by adding it to `collections` in `_config.yml`:
 
    ~~~ yaml
