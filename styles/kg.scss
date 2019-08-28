@@ -20,7 +20,8 @@ $kg-borders-thickness: 2px;
 
 // KG styles
 .kg-container {
-    min-width: 1080px; // KG layout needs size
+    min-width: 1080px; // KG layout needs roughly this size
+    margin-left: calc(-1 * ((1080px - 100%) / 2)); // centres container on page
     text {
         cursor: default;
         -webkit-user-select: none;
