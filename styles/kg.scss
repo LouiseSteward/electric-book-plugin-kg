@@ -19,8 +19,8 @@ $kg-borders-thickness: 2px;
 
 
 // KG styles
-
 .kg-container {
+    min-width: 1080px; // KG layout needs size
     text {
         cursor: default;
         -webkit-user-select: none;
@@ -32,8 +32,18 @@ $kg-borders-thickness: 2px;
             background: none;
         }
     }    
+    hr {
+        margin: auto;
+        text-align: initial;
+    }
     input {
         font-family: KaTeX_Main;
+        padding: 0;
+        &[type="checkbox"] {
+            display: inline;
+            margin: 0;
+            width: auto;
+        }
     }
     .katex {
         font-size: 1em;
@@ -104,4 +114,3 @@ $kg-borders-thickness: 2px;
    padding-bottom: calc(100% * 4 / 4); // assumes square image. For a 3:4 ratio, use 3 / 4
    width: 100%;
 }
-
